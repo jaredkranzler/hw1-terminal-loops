@@ -311,7 +311,40 @@ JKs-MacBook-Pro:homework_part2 JK$
 
 
 
+JKs-MacBook-Pro:hw1-terminal-loops JK$ git add -A
+JKs-MacBook-Pro:hw1-terminal-loops JK$ git commit -m "hw1_terminal-loops ect"
+[master f123342] hw1_terminal-loops ect
+ Committer: JK <JK@JKs-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
 
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 3 files changed, 335 insertions(+)
+ create mode 100644 css/style.css
+ create mode 100644 html/index.html
+ create mode 100644 js/app.js
+JKs-MacBook-Pro:hw1-terminal-loops JK$ git push origin master
+Counting objects: 8, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (8/8), 2.81 KiB | 2.81 MiB/s, done.
+Total 8 (delta 0), reused 0 (delta 0)
+gTo https://github.com/jaredkranzler/hw1-terminal-loops.git
+   729b7ea..f123342  master -> master
+JKs-MacBook-Pro:hw1-terminal-loops JK$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+JKs-MacBook-Pro:hw1-terminal-loops JK$ 
 
 
 
