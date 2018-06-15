@@ -46,20 +46,17 @@ JKs-MacBook-Pro:js JK$
 -Sections 1- 
 1. cancatenation is when you add two stings together using ( " " + " ")
 example ("i'm a phrase " + "i'm the end of a phrase.")
-interpolation is when you use variables to represent the strings in corresponding array.
+interpolation is when you use variables to represent the strings.
 example var name = "jared";
-			return ("(name) is the coolest!"")  
+			console.log(`${name} is the coolest!`)  
 2. DRY stands for "don't repeat yourself". 
-Through the use of acronyms and functions we can simplify 
+Through functions and loops we can simplify 
 our code that we use over and over and thus save time 
-and work more efficiently. for example funtions and if.. else 
-statments help us set a querie and parameter and complete tasks by giving values
-to different arrays and variables  that can be plugged in by the calling of the code
-and save os from completing the same task for similar items over and over.
+and work more efficiently. 
+*/
+// -Section 2-
+// -Boolean expressions-
 
--Section 2-
--Boolean expressions-
-/*
   const a = 4;
   const b = 53;
   const c = 57;
@@ -73,13 +70,13 @@ console.log(a + b === c);
 console.log(a < a + d);
 console.log(e === 'Kevin');
 console.log(48 !== '48');
-*/
-/*
--Section 3-
--loops-
-The loop will not run because var runProgram true is false in the function;
-*/
-/*
+
+// -Section 3-
+// -loops-
+
+// yes because its always true
+// The loop will run once because the variable is changed to false at the end.
+
 let letters = "A";
 let i = 0;
 
@@ -90,36 +87,34 @@ while (i < 20) {
 
 console.log(letters);
 
-since the operator is after there will be one extra since it wont show the 
-the first time "A" so 21
-*/
-/*
-section 4 - 
-a while loop will repeat until something is true
-a for loop is used more for iterating something in an array a certain number of times
+// since the operator is after there will be one extra since it wont show the 
+// the first time "A" so 21 (it ran 21 times)
+
+// section 4 - 
+// a while loop will repeat until the test condition is false.
+// a for loop is used more for iterating something in an array a certain number of times
 
 
 for (var i = 0; i < 999; i++) {
-	console.log("Build a good name!");
+  console.log(i);
 }
 
-if () {
-} else if () {
-} else {
+// For Loop Control Statement
 
+// first part of the loop is initialization or where it starts from, the second
+//  is the condition that lets the statement run until the condition is false,
+//  and the final expression is the rate at which the statement is carried out.
+
+for (var i = 999; i >= 0; i--) {
+	console.log(i);
 }
 
 
-for (var i = 999; i >+ 0; i--) {
-	console.log("Build a good name!");
-}
-
-
-for (var i = 0; i < 11; i += 1) {
+for (var i = 1; i =< 10; i += 1) {
 	console.log("the value of i is: " + i + "of 10");
 }
 
-*/
+
 
 /*
 -section 5 -
